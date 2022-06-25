@@ -75,6 +75,15 @@ textarea {
   line-height: inherit;
 }
 
+.invalid{
+  border: 3px solid !important;
+  border-color: red !important;
+}
+
+.valid{
+  border-color: greenyellow !important;
+}
+
 button {
   border: none;
 }
