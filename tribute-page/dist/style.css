@@ -1,18 +1,19 @@
 body {
   font-family: times-new roman;
-  background: #;
-  color: #00000;
+  background: #ccc;
   text-align: center;
+  margin: 4rem;
 }
 
 #main{
   display: absolute;
   margin: auto, auto;
-  background-color: white;
+  /* background-color: #ccc; */
 }
 
 h2{
   font-family:sans-serif;
+  text-align: center;
   }
 
 #img-div {
@@ -25,7 +26,7 @@ h2{
 #image {
   padding-top: 10px;
   height: auto;
-  max-width: 330px;
+  width: max-content;
   margin-left: auto;
   margin-right: auto;
   display: block;
@@ -33,7 +34,13 @@ h2{
 
 ul {
   max-width: 550px;
-  margin: 0 auto 50px auto;
+  margin: 0 auto 30px;
+  padding:2rem;
   text-align: left;
   line-height: 1.6;
+}
+
+ul li{
+  padding:1rem;
+  font-size: 1.4rem;
 }
